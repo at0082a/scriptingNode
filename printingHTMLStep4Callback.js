@@ -1,7 +1,5 @@
 var https = require('https');
 
-
-
 function getHTML (options, callback) {
 
     //var newVar = [];
@@ -29,7 +27,7 @@ function getHTML (options, callback) {
 
   function printHTML (html) {
     console.log(html);
-  }
+}
 
   var requestOptions = {
     host: 'sytantris.github.io',
